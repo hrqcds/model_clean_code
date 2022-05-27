@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { ExampleCreateController } from "../../context/example/controller/ExampleCreateController";
-import { ExampleListController } from "../../context/example/controller/ExampleListController";
+import { ExampleCreateController } from "../../context/example/controller/example_create_controller";
+import { ExampleListController } from "../../context/example/controller/example_list_controller";
 
 const ExampleRouter = Router();
 
