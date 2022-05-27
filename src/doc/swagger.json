@@ -1,0 +1,8 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Model",
+    "description": "Modelo de documentação da APi",
+    "version": "1.0.0"
+  }
+}
