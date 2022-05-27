@@ -66,11 +66,28 @@
       {
         "devDependencies": true
       }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
     ]
   },
   "settings": {
     "import/resolver": {
-      "typescript": {}
+      "node": {
+        "paths": [
+          "src"
+        ],
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
     }
   }
 }
